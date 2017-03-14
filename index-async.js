@@ -38,7 +38,7 @@
 
 
   // load external diagram file via AJAX and import it
-  $.get('edu-graph.bpmn', importXML, 'text');
+  $.get('https://cdn.rawgit.com/EduGraph/EduGraph-Integration/master/src/main/resources/edu-graph.bpmn', importXML, 'text');
 
 
 })(window.BpmnJS, window.jQuery);
